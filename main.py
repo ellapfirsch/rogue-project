@@ -211,7 +211,10 @@ def CheckManhattanDistance(Player, Gold):
 	
 #########################################################
 def CheckNext(Player, Grid, Gold, key, Next ):
-	if Grid[Next.y]                                                                                                                                            
+	if key == "w":
+		if Player.y - 1 < 0:
+			Player.y = Player.y
+		elif Grid[Player.y - 1][Player.x] == 0
 ##################################################
 
 def instructions():
